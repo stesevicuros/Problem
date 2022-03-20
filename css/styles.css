@@ -1,0 +1,155 @@
+/*********************************************************TAG SELECTORS*********************************************************/
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 3rem;
+    line-height: 1.5;
+    width: 80%;
+    margin: auto;
+}
+
+h3 {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+
+/* Naslovna */
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.iphone {
+    width: 60%;
+    transform: rotate(25deg);
+    margin-top: 1.5rem;
+    position: absolute;
+
+}
+
+.navbar {
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 4.5rem;
+    font-size: 1.3rem;
+    width: 90%;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.nav-item {
+    padding-left: 40px;
+    font-family: 'Montserrat',
+        sans-serif;
+    font-weight: 400;
+}
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+/* Features mid section*/
+
+#features {
+    text-align: center;
+    font-family: 'Montserrat',
+        sans-serif;
+    padding: 5% 7%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.container-mid {
+    padding: 3% 15%;
+}
+
+.mid-col {
+    margin: 4rem auto;
+}
+
+.discription {
+    width: 60%;
+    margin: auto;
+    color: #696969;
+}
+
+.fa-solid {
+    font-size: 5rem;
+    color: #ef8172;
+    margin-bottom: 1.2rem;
+}
+
+.fa-solid:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials */
+
+
+#testimonials {
+
+    background-color: #ef8172;
+    color: #fff;
+    text-align: center;
+}
+
+.testimonial-image {
+    width: 8%;
+    border-radius: 100%;
+    margin: 25px;
+}
+
+.carousel-inner {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 11%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+
+#pricing {
+    padding: 10% 15%;
+    text-align: center;
+}
+
+.price-col {
+    padding: 3% 2%;
+}
+
+.btn-plan {
+    width: 100%;
+}

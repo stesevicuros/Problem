@@ -3,40 +3,41 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+    text-align: center;
+}
 
+h1,
+h2,
+h3 {
+    line-height: 1.5;
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-size: 3.5rem;
-    line-height: 1.5;
-
 }
 
-h2 {
-    font-weight: 800;
-    font-size: 3rem;
-    line-height: 1.5;
-    width: 80%;
-    margin: auto;
-}
-
-h3 {
-    font-weight: 800;
-    font-size: 1.5rem;
-}
-
-
-/* Naslovna */
-
-#title {
+.colored-section {
     background-color: #ff4c68;
     color: white;
 }
 
+.uncolored-section {
+    background-color: white;
+}
+
+/* Naslovna */
+
+#title {
+    text-align: left;
+}
+
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 14%;
+}
+
+.naslovna {
+    position: relative;
 }
 
 .iphone {
@@ -71,16 +72,29 @@ h3 {
     margin: 5% 3% 5% 0;
 }
 
+@media (max-width: 991px) {
+    .iphone {
+        position: static;
+        transform: rotate(0deg);
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
 /* Features mid section*/
 
 #features {
-    text-align: center;
-    font-family: 'Montserrat',
-        sans-serif;
     padding: 5% 7%;
-    background-color: white;
+
     position: relative;
-    z-index: 1;
+
+}
+
+.feature-title {
+    font-weight: 800;
+    font-size: 1.5rem;
 }
 
 .container-mid {
@@ -97,13 +111,13 @@ h3 {
     color: #696969;
 }
 
-.fa-solid {
+.iconFeatures {
     font-size: 5rem;
     color: #ef8172;
     margin-bottom: 1.2rem;
 }
 
-.fa-solid:hover {
+.iconFeatures:hover {
     color: #ff4c68;
 }
 
@@ -111,10 +125,13 @@ h3 {
 
 
 #testimonials {
-
     background-color: #ef8172;
-    color: #fff;
-    text-align: center;
+}
+
+.testimonial-text {
+    font-weight: 800;
+    font-size: 3rem;
+    padding: 0 10%;
 }
 
 .testimonial-image {
@@ -129,7 +146,6 @@ h3 {
 
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -143,13 +159,52 @@ h3 {
 
 #pricing {
     padding: 10% 15%;
-    text-align: center;
+}
+
+.pricing-heading {
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.card-title {
+    font-weight: 800;
+    font-size: 1.5rem;
 }
 
 .price-col {
     padding: 3% 2%;
 }
 
+.correcton-paragraph {
+    height: 24px;
+}
+
 .btn-plan {
     width: 100%;
+}
+
+/* Call to action */
+
+
+#cta {
+    padding: 8% 20%;
+}
+
+.foot-heading {
+    padding: 0 5%;
+}
+
+.download-btn-foot {
+    margin: 3.5% 1.5% 0;
+}
+
+/* Footer */
+
+
+#footer {
+    padding: 8% 20% 0.5%;
+}
+
+.iconFoot {
+    margin: 2% 1%;
 }
